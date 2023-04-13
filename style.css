@@ -8,16 +8,31 @@ html{
     display: flex;
     justify-content: center;
 }
+
+/* begin : img&caption style */
+.bmi-img{
+    width: 500px;
+    margin: 30px 100px 0 80px;
+}
+#bmi-stimulus{
+    width: 500px;
+    margin: 0 100px 80px 80px;
+    text-align: center;
+}
+/* end : img&caption style */
+
 .BMI-flex-container{
     padding: 20px 50px;
+    height: 600px;
     border-radius: 10px;
-    background-color: beige;
+    background-color: #ECF2FF;
     display: flex;
     flex-direction: column;
 }
 
 /* begin : header-title style */
 .BMI-header{
+    margin: 50px 0;
     text-align: center;
     font-weight: 450;
 }
