@@ -1,0 +1,78 @@
+html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.BMI-Calculator{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.BMI-flex-container{
+    padding: 20px 50px 50px;
+    border-radius: 10px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+}
+
+/* begin : header-title style */
+.BMI-header{
+    text-align: center;
+    font-weight: 450;
+}
+
+#BMI-title1{
+    font-weight: 900;
+}
+/* end : header-title style */
+
+
+/* begin : content-form style */
+#form-input{
+    margin: 10px 0;
+}
+#input-label{
+    font-size: 13px;
+}
+#weight, #height{
+    margin: 5px 0;
+    width: 425px;
+    height: 20px;
+    border-radius: 3px;
+    border-width: 1px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+/* end : content-form style */
+
+
+/* begin : button style */
+.calculate-button {
+    margin-top: 10px;
+    width: 100px;
+    padding: 8px 8px;
+    background-color: #6558F5;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+    text-align:center;
+    cursor: pointer; /* menambahkan properti pointer-events */
+  }
+  
+  .calculate-button:hover {
+    background-color: #0062cc;
+  }
+
+/* end : button style */
+
+/* begin : hasilstyle */
+#hasil{
+    margin-top: 30px;
+}
+/* end : hasil style */
+
+
+
+
+
