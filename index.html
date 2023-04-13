@@ -9,5 +9,28 @@
 </head>
 <body>
     <!-- Tambahkan kode kalian di sini -->
-</body>
+    <div class="BMI-Calculator">
+        <div class="BMI-flex-container">
+            <div id="BMI-title" class="BMI-header">
+                <h2>Check your BMI</h2>
+                <p>Enter your weight and height below to check your BMI results</p>
+            </div>
+            <div id="BMI-form" class="BMI-Content">
+                <div id="form-input" class="weight-input">
+                    <label for="weight-input">Put your weight in here (KG)</label><br>
+                    <input type="number" placeholder="enter your weight here, ex : 40" >
+                </div>
+                <div id="form-input" class="height-input">
+                    <label for="height-input">Put your height in here (CM)</label><br>
+                    <input type="number" placeholder="enter your weight here, ex : 155" >
+                </div>
+            </div>
+            <div class="Calculate-button">
+                <button onclick="checkBMI()">Calculate BMI</button>
+            </div>
+            <div id="BMI-hasil" class=""></div>
+        </div>
+    </div>
+
+   </body>
 </html>
