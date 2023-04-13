@@ -20,15 +20,17 @@
                 <div id="form-input" class="weight-input">
                     <label id="input-label" for="weight-input">Put your weight in here (KG)</label><br>
                     <input id="weight" type="number" placeholder="enter your weight here, ex : 40" >
+                    <div id="weight-error" class="error-message"></div>
                 </div>
                 <div id="form-input" class="height-input">
                     <label id="input-label" for="height-input">And your height in here (CM)</label><br>
                     <input id="height"  type="number" placeholder="enter your weight here, ex : 155" >
+                    <div id="height-error" class="error-message"></div>
                 </div>
             </div>
             <div class="calculate-button" onclick="checkBmi()">Calculate BMI</div>
 
-            <div id="hasil" class=""></div>
+            <div id="hasil"></div>
         </div>
     </div>
 

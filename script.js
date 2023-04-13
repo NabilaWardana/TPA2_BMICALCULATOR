@@ -6,6 +6,16 @@ function checkNumber(num){
 function checkBmi(){
     const weight = document.getElementById("weight").value;
     const height = document.getElementById("height").value;
+    const weightError = document.getElementById("weight-error");
+    const heightError = document.getElementById("height-error");
+    weightError.innerHTML="";
+    heightError.innerHTML="";
+    if(!checkNumber(weight)){
+        weightError.innerHTML="*Weight must be filled and greater than 0";
+    }
+    if(!checkNumber(height)){
+        heightError.innerHTML="*Height must be filled and greater than 0";
+    }
     if(checkNumber(weight)&& checkNumber(height)){
         const bmi = (weight/Math.pow(height/100,2)).toFixed(1);
         let status;
