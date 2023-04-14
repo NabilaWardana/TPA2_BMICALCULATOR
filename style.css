@@ -12,11 +12,11 @@ html{
 /* begin : img&caption style */
 .bmi-img{
     width: 500px;
-    margin: 30px 100px 0 80px;
+    margin: 30px 80px 0 0;
 }
 #bmi-stimulus{
     width: 500px;
-    margin: 0 100px 80px 80px;
+    margin: 0 80px 80px 0;
     text-align: center;
 }
 /* end : img&caption style */
@@ -28,6 +28,7 @@ html{
     background-color: #ECF2FF;
     display: flex;
     flex-direction: column;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1)
 }
 
 /* begin : header-title style */
@@ -79,9 +80,9 @@ html{
     text-align:center;
     cursor: pointer; /* menambahkan properti pointer-events */
   }
-  
-  .calculate-button:hover {
-    background-color: #0062cc;
+
+.calculate-button:hover {
+    background-color: #6558f583;
   }
 
 /* end : button style */
